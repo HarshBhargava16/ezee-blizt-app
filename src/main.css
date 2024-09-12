@@ -1,0 +1,37 @@
+.wrapper
+{
+    min-height: 100vh;
+}
+.pointer
+{
+    cursor: pointer;
+}
+#product img
+{
+    padding: 10px 5px 0;
+    height: 140px;
+    object-fit: contain;
+}
+#single img
+{
+    max-height: 500px;
+    object-fit: contain;
+}
+#single button
+{
+    width: 180px;
+}
+.line{
+    opacity: 0.7;
+    height: 5px !important;
+}
+#cart .description
+{
+    max-height: 50px;
+    overflow: hidden;
+}
+
+#cart-numbers li:last-child span:last-child
+{
+    font-weight: bolder;
+}
